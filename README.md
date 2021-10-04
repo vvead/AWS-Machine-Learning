@@ -44,3 +44,4 @@ Each AWS DeepComposer Music studio experience supports three different generativ
 - Use the GAN technique to create accompaniment tracks.
 - Use the AR-CNN technique to modify notes in your input track.
 - Use the transformers technique to extend your input track by up to 30 seconds.
+## GANs with AWS DeepComposer
