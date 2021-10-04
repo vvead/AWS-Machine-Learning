@@ -51,3 +51,9 @@ A GAN is a type of generative machine learning model which pits two neural netwo
 - A discriminator is another neural network trained to differentiate between real and synthetic data.
 
 The generator and the discriminator are trained in alternating cycles. The generator learns to produce more and more realistic data while the discriminator iteratively gets better at learning to differentiate real data from the newly created data.
+
+During training, the generator and discriminator work in a tight loop as depicted in the following image.
+<img width="653" alt="gr" src="https://user-images.githubusercontent.com/45710599/135932022-d5bf5604-d005-4fe5-b2b2-d55822d07382.png">
+
+##AR-CNN with AWS DeepComposer
+To train the AR-CNN model to predict when notes need to be added or removed from your input track (edit event), the model **iteratively** updates the input track to sounds more like the training dataset. During training, the model is also challenged to detect differences between an original piano roll and a newly modified piano roll.
