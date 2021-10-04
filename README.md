@@ -33,3 +33,14 @@ In a reinforcement learning model, an **agent** learns in an interactive real-ti
 ## Generative AI with AWS DeepComposer
 ### AWS DeepComposer
 AWS DeepComposer gives you a creative and easy way to get started with machine learning (ML), specifically generative AI. It consists of a **USB keyboard** that connects to your computer to input melody and the **AWS DeepComposer console**, which includes AWS DeepComposer Music studio to generate music, **learning capsules** to dive deep into generative AI models, and **AWS DeepComposer Chartbusters challenges** to showcase your ML skills.
+
+### AWS DeepComposer music studio
+To generate, create, and edit compositions with AWS DeepComposer, you use the AWS DeepComposer Music studio. To get started, you need an input track and a trained model.
+
+For the input track, you can use a sample track, record a custom track, or import a track.
+<img width="1143" alt="et" src="https://user-images.githubusercontent.com/45710599/135896222-ccb58583-7c46-41fc-94d7-686bb8e4d7c8.png">
+
+Each AWS DeepComposer Music studio experience supports three different generative AI techniques: generative adversarial networks (GANs), autoregressive convolutional neural network (AR-CNNs), and transformers.
+- Use the GAN technique to create accompaniment tracks.
+- Use the AR-CNN technique to modify notes in your input track.
+- Use the transformers technique to extend your input track by up to 30 seconds.
