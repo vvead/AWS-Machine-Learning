@@ -30,3 +30,4 @@ The car’s initial state is the starting line of the track and its terminal sta
 - **Episode :** An episode begins at the initial state, when the car leaves the starting position, and ends at the terminal state, when it finishes a lap, bumps into an obstacle, or drives off the track. 
 
 In a reinforcement learning model, an **agent** learns in an interactive real-time **environment** by trial and error using feedback from its own **actions**. Feedback is given in the form of **rewards**.
+## Generative AI with AWS DeepComposer 
