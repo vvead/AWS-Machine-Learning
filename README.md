@@ -45,3 +45,9 @@ Each AWS DeepComposer Music studio experience supports three different generativ
 - Use the AR-CNN technique to modify notes in your input track.
 - Use the transformers technique to extend your input track by up to 30 seconds.
 ## GANs with AWS DeepComposer
+A GAN is a type of generative machine learning model which pits two neural networks against each other to generate new content: a generator and a discriminator.
+
+- A generator is a neural network that learns to create new data resembling the source data on which it was trained.
+- A discriminator is another neural network trained to differentiate between real and synthetic data.
+
+The generator and the discriminator are trained in alternating cycles. The generator learns to produce more and more realistic data while the discriminator iteratively gets better at learning to differentiate real data from the newly created data.
