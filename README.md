@@ -55,5 +55,5 @@ The generator and the discriminator are trained in alternating cycles. The gener
 During training, the generator and discriminator work in a tight loop as depicted in the following image.
 <img width="653" alt="gr" src="https://user-images.githubusercontent.com/45710599/135932022-d5bf5604-d005-4fe5-b2b2-d55822d07382.png">
 
-##AR-CNN with AWS DeepComposer
+## AR-CNN with AWS DeepComposer
 To train the AR-CNN model to predict when notes need to be added or removed from your input track (edit event), the model **iteratively** updates the input track to sounds more like the training dataset. During training, the model is also challenged to detect differences between an original piano roll and a newly modified piano roll.
