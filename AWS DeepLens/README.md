@@ -6,6 +6,7 @@ Four key components are required for an AWS DeepLens–based project.
 2. **Train your model:** Use a Jupyter Notebook in Amazon SageMaker to train your model.
 3. **Deploy your model:** Use AWS Lambda to deploy the trained model to your AWS DeepLens device.
 4. **View model output:** Use Amazon IoT Greenrass to view your model's output after the model is deployed.
+
 ## Machine Learning workflow
 1. **Define the problem.**
    * Using machine learning, we want to improve how trash is sorted. We're going to identify objects using a video stream, so we identify this as a computer vision–based problem.
