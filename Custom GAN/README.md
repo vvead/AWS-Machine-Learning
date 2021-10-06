@@ -6,7 +6,7 @@ GANs consist of two networks constantly competing with each other:
 
 <img width="1291" alt="gan" src="https://user-images.githubusercontent.com/45710599/136113565-d5830e31-bdc5-49ea-8bd5-1e927bca4a66.png">
 
-## How the Model Works
+## How the GAN Model Works
 
 The model consists of two networks, a generator and a discriminator (critic). These two networks work in a tight loop:
 
